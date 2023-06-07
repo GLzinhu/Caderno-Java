@@ -1,0 +1,31 @@
+//criar uma função passando um parãmetro
+fun meuNome(nome:String){
+  println("Seu nome é "+ nome)
+}
+//crie uma função que retorna true ou false
+
+fun veroufalse(x:Boolean){
+  println(x)
+}https://github.com/GLzinhu
+////crie uma função que verifica a idade passada como parãmetro é maior de idade
+
+fun idade(y:Int){
+  println("Qual sua idade?")
+  
+  if (y>=18){
+  println("É maior de idade " + y)
+  }
+  else{
+    println("É menor de idade "+ y)
+  }
+}
+
+
+//função principal kotlin
+fun main() {
+  meuNome("GLzinhu")
+  veroufalse(true)
+  veroufalse(false)
+  idade(15)
+  idade(19)
+}
