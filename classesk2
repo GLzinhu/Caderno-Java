@@ -1,0 +1,32 @@
+class carro {
+  var marca = ""
+  var modelo = ""
+  var ano = 0 
+}
+  class car(var marca: String, var modelo: String, var ano: Int){
+    
+
+  fun ligar() {
+    println("Vrum Vrum!")
+  }
+}
+  
+
+
+fun main() {
+var corola=carro()
+corola.marca= "Toyota"
+corola.modelo= "Corolla"
+corola.ano= 2023
+
+  println(corola.marca)
+  println(corola.modelo)
+  println(corola.ano)
+
+   val c1 = car("Porshe", "Panameira", 2020)
+   println (c1.marca)
+
+   val c2 = car("Volks", "Fusca", 1970)
+   println(c2.modelo)
+   c1.ligar()
+}  
