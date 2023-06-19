@@ -1,0 +1,27 @@
+import kotlin.math.*
+fun main() {
+  println("Uma equação do sengundo grau degue o seguinte padrão:")
+  println("ax2+bx+c")
+  println("Digite o valor de A: ")
+  var num1 = readLine()!!
+  println("Digite o valor de B: ")
+  var num2 = readLine()!!
+  println("Digite o valor de C: ")
+  var num3 = readLine()!!
+  println("Você digitou a:"+num1+",b:"+num2+",c:"+num3)
+  var a: Double=num1.toDouble()
+  var b: Double=num2.toDouble()
+  var c: Double=num3.toDouble()
+
+  println("numero do tipo Double-> a:"+a+",b"+b+",c:"+c)
+  var delta=b*b-(4*a*c)
+  println("0 delta é: "+delta)
+  var raizdelta=sqrt(delta)
+  println ("A raiz de delta é:"+ raizdelta )
+
+  var x1=(-b+raizdelta)/(2*a)
+  println("x1:"+x1)
+  var x2= (-b-raizdelta)/(2*a)
+  println ("x2: " +x2)
+
+}
